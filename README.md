@@ -1,11 +1,21 @@
-<div align="center">
-  
+# QR Code Generator
 
-  <h2 align="center">QR-Code generator</h2>
-</div>
+Turn text or a link into a QR code, then download or share it.
 
-<br />
+## Features
 
-### Demo Screeshots
+- Choose QR code size and colours
+- Download as an image
+- Share with the Web Share API where supported
 
-![preview img](/preview1.png)
+## Run it
+
+No build step. Open `index.html` in a browser, or serve the folder with any static server, for example `python -m http.server`.
+
+## Notes
+
+- Uses the QRCode.js library from a CDN.
+
+## Screenshots
+
+![QR Code Generator screenshot](preview1.png)
